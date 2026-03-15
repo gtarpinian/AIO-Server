@@ -128,7 +128,7 @@ This installs a self hosted internet speed test for within the local network. Th
 
 Click the speed test though and you'll notice that this is super fast, faster than the wifi ought to be. That's because since we're testing over localhost, we aren't going out over the internet at all, and we're basically seeing how fast our system is.
 
-We need to test from another computer to see how fast the network is. But what would we put in the address bar? Localhost won't work because it's only for that device specifically. Therefore we need to get the ip address of our new server using the command ``ip addr``. Look for the one beginning 192.168.x.xxx. This should be our local network (LAN). Now on your phone or something, try going to to the address ``192.168.1.205:3000``.
+We need to test from another computer to see how fast the network is. But what would we put in the address bar? Localhost won't work because it's only for that device specifically. Therefore we need to get the ip address of our new server using the command ``ip addr``. Look for the one beginning 192.168.x.xxx. This should be our local network (LAN). Now on your phone or something, try going to to the address [192.168.1.3:3000](192.168.1.3:3000).
 
 Let's run the test again. Ouch, not crazy fast, huh? One thing I'll be pedantic about is using a wired connection for server computers. Let's go plug in with an ethernet cable and run the test again.
 
